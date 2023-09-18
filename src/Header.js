@@ -24,8 +24,8 @@ function Header() {
           <div className="nav__itemLineOne">Your</div>
           <div className="nav__itemLineTwo">Shop</div>
         </div>
-        <div className="nav__item">
-          <ShoppingBasketIcon className='itemBasket'/>
+        <div className='nav__itemBasket'>
+          <ShoppingBasketIcon/>
           <div className="nav__itemLineTwo nav__basketCount">0</div>
         </div>
       </div>
