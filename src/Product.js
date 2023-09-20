@@ -7,9 +7,14 @@ function Product() {
         <div className="product">
             <div className="product__info">
                 <p>Title</p>
-                <p className="product__price">$30</p>
+                <p className="product__price">
+                  <small>$</small>
+                  <strong>30</strong>
+                </p>
                 <div className="product__rating">⭐⭐</div>
             </div>
+            <img src='' alt='product-image'/>
+            <button>Add to Basket</button>
         </div>
     </div>
   )
